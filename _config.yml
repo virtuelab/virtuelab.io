@@ -34,7 +34,6 @@ header_pages:
 # Build settings
 markdown: kramdown
 theme: minima
-destination: docs
 plugins:
 #enable most recent minima to work with github pages, the plugin downloads the theme directly from this repository again each time you build your site
   - jekyll-remote-theme
