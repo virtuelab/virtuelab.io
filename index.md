@@ -33,6 +33,23 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+  - List
+    - of lists
+      - of lists
+- List
+
+1. Numbered
+2. List
+    1. of lists
+        1. of lists
+
+**Bold** and _Italic_ [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and `Code` text with footnotes[^On citational practice, see  [Chicago](src) ]
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
