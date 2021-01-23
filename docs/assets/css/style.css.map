@@ -3,12 +3,12 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-46039-15fv8or/_sass/minima/skins/classic.scss",
-		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-46039-15fv8or/_sass/minima/initialize.scss",
-		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-46039-15fv8or/_sass/minima/custom-variables.scss",
-		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-46039-15fv8or/_sass/minima/_base.scss",
-		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-46039-15fv8or/_sass/minima/_layout.scss",
-		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-46039-15fv8or/_sass/minima/custom-styles.scss"
+		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-48618-b1rbjn/_sass/minima/skins/classic.scss",
+		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-48618-b1rbjn/_sass/minima/initialize.scss",
+		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-48618-b1rbjn/_sass/minima/custom-variables.scss",
+		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-48618-b1rbjn/_sass/minima/_base.scss",
+		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-48618-b1rbjn/_sass/minima/_layout.scss",
+		"../../../../private/var/folders/d0/zl5xqs_d4p1_5gk7dfsmk6f80000gn/T/jekyll-remote-theme-20210122-48618-b1rbjn/_sass/minima/custom-styles.scss"
 	],
 	"sourcesContent": [
 		"// Override variables before imports, will only overide variables marked '!default'\n $base-font-family: Avenir, \"Avenir Next\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Segoe UI Symbol\", \"Segoe UI Emoji\", \"Apple Color Emoji\", Roboto, Helvetica, Arial, sans-serif;\n\n@import \"minima/skins/classic\";\n@import \"minima/initialize\";\n$grey: #eeeeee;\n$nice_red: #b30000;//#e60000; //#900;\n\n$code-highlight-background-color: $grey;\n\n.body {\n  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;\n}\n\n.highlighter-rouge .highlight {\n    background: $code-highlight-background-color;\n}\n\n.pre, code {\n  background-color: $code-highlight-background-color;\n}\n\n// links in and outside code blocks\na, .highlight .sx  {\n  color: $nice_red;\n}\n\n// `code` text inside code blocks\n.highlight .sb {\n  color: $nice_red;\n  //color: #fff;\n  // background-color: #000;\n}\n",

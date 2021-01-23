@@ -982,6 +982,8 @@
       </choose>
     </layout>
   </citation>
+
+<!--
   <bibliography hanging-indent="true" et-al-min="10" et-al-use-first="9" subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0">
     <sort>
       <key macro="contributors-sort"/>
@@ -990,19 +992,15 @@
     </sort>
     <layout suffix=".">
       <choose>
-        <!-- Dictionary -->
         <if type="entry-dictionary entry-encyclopedia" match="any">
           <choose>
             <if match="none" variable="author">
-              <!-- Unsigned Not Listed -->
             </if>
             <else>
-              <!-- Signed -->
               <text macro="signed-dictionary-bib"/>
             </else>
           </choose>
         </if>
-        <!-- Not Dictionary -->
         <else>
           <group delimiter=". ">
             <text macro="contributors"/>
@@ -1014,7 +1012,6 @@
           </group>
           <choose>
             <if variable="volume collection-title" match="all">
-              <!--If Volume # and collection-title -->
               <text macro="locators"/>
               <text macro="collection-title" text-case="title" prefix=" "/>
             </if>
@@ -1032,4 +1029,5 @@
       </choose>
     </layout>
   </bibliography>
+-->
 </style>

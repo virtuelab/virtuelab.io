@@ -38,7 +38,8 @@ markdown: Pandoc
 pandoc:
   extensions:
     # the following line for extensions has to be entered just as if you were passing it to pandoc on the command line. Ignore the plugin docs.
-    - --from markdown+footnotes+all_symbols_escapable+hard_line_breaks+line_blocks+smart+citations+escaped_line_breaks+raw_tex
+    # --metadata suppress-bibliography=true flag does not work, so I commented out the <bibliography> tag in the csl
+    - --from markdown+inline_notes+all_symbols_escapable+hard_line_breaks+line_blocks+smart+citations+escaped_line_breaks+raw_tex 
     - csl: _styles/sbl.csl
     - bibliography: ~/zotero/zotero_library.bib
 
