@@ -18,25 +18,31 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: virtuelab
 author:
   email: admin@virtuelab.io
 
-# set up remote_theme
-remote_theme: jekyll/minima
-
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - about.md
 
-
 # Build settings
-markdown: kramdown
+remote_theme: jekyll/minima
 theme: minima
+gems:
+  - jekyll-pandoc
 plugins:
-#enable most recent minima to work with github pages, the plugin downloads the theme directly from this repository again each time you build your site
-  - jekyll-remote-theme
+  - jekyll-remote-theme #enable most recent minima to work with github pages, the plugin downloads the theme directly from this repository again each time you build your site
+markdown: Pandoc
+pandoc:
+  extensions:
+    # the following line for extensions has to be entered just as if you were passing it to pandoc on the command line. Ignore the plugin docs.
+    - --from markdown+footnotes+all_symbols_escapable+hard_line_breaks+line_blocks+smart+citations+escaped_line_breaks+raw_tex
+    - csl: _styles/sbl.csl
+    - bibliography: ~/zotero/zotero_library.bib
+
+destination: docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -48,7 +48,7 @@ Syntax highlighted code block
     1. of lists
         1. of lists
 
-**Bold** and _Italic_ [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and `Code` text with footnotes[^On citational practice, see  [Chicago](src) ]
+**Bold** and _Italic_ [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and `Code` text with footnotes^[For what to do with them, see @UniversityofChicagoPress_2017_ChicagoManualStyle.]
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
